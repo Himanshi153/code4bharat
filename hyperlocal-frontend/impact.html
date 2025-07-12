@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Impact Dashboard – Hyperlocal</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script> <!-- D3.js -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>📊 Impact Dashboard</h1>
+    <p>See how much food we’ve saved and lives we’ve helped!</p>
+  </header>
+
+  <main>
+    <!-- Impact Stats -->
+    <section class="card">
+      <h2>🌱 Live Impact</h2>
+      <ul class="impact-stats">
+        <li>🥕 Items Rescued: <strong id="itemsCount">0</strong></li>
+        <li>🍽 Meals Donated: <strong id="mealsCount">0</strong></li>
+        <li>🌍 CO₂ Saved: <strong id="co2Count">0 kg</strong></li>
+        <li>👤 Shoppers Participated: <strong id="usersCount">0</strong></li>
+      </ul>
+    </section>
+
+    <!-- Graph -->
+    <section class="card">
+      <h2>📈 Surplus Saved Over Days</h2>
+      <div id="impactChart"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Hyperlocal | Impact View</p>
+  </footer>
+</body>
+</html>
