@@ -10,11 +10,11 @@
 }
 
 .shopper-feed h1 {
-  color: #00ff88;
+  color: #34d399;
   font-size: 2.4rem;
   text-align: center;
   margin-bottom: 2.5rem;
-  border-bottom: 2px solid #00ff88;
+  border-bottom: 2px solid #34d399;
   padding-bottom: 0.5rem;
   width: 100%;
   max-width: 800px;
@@ -31,7 +31,7 @@
 
 .deal-card {
   background-color: #111111;
-  border: 1px solid #00ff88;
+  border: 1px solid #34d399;
   border-radius: 20px;
   padding: 1.5rem 1rem;
   box-shadow: 0 0 14px rgba(0, 255, 136, 0.15);
@@ -71,7 +71,7 @@
 .view-btn {
   margin-top: 1.2rem;
   padding: 0.6rem 1.4rem;
-  background-color: #00ff88;
+  background-color: #34d399;
   color: #000000;
   border: none;
   border-radius: 12px;
@@ -81,7 +81,7 @@
 }
 
 .view-btn:hover {
-  background-color: #00cc66;
+  background-color: #34d399;
   transform: scale(1.06);
   color: #000;
 }

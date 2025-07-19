@@ -8,7 +8,7 @@
 .my-reservations-heading {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  color: #00ff88;
+  color: #34d399;
   text-align: center;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .reservation-card {
-  border: 1px solid #00ff88;
+  border: 1px solid #34d399;
   padding: 1rem;
   border-radius: 12px;
   background-color: #111;
@@ -28,7 +28,7 @@
 .show-qr-button {
   margin-top: 1rem;
   padding: 0.5rem 1rem;
-  background-color: #00ff88;
+  background-color: #34d399;
   color: black;
   border: none;
   border-radius: 6px;
@@ -37,5 +37,5 @@
 }
 
 .show-qr-button:hover {
-  background-color: #00cc6f;
+  background-color: #34d399;
 }
