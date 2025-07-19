@@ -6,7 +6,7 @@ body {
 }
 
 button {
-  border: 2px solid green;
+  border: 2px #34d399;
   background-color: transparent;
   color: white;
   padding: 10px 16px;
