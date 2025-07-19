@@ -1,0 +1,68 @@
+.deal-detail-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.deal-detail-popup {
+  background-color: #111;
+  border: 1px solid #00ff88;
+  border-radius: 18px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+  animation: fadeIn 0.3s ease;
+}
+
+.deal-detail-popup h2 {
+  color: #00ff88;
+  margin: 1rem 0 0.5rem;
+}
+
+.deal-desc {
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.deal-detail-popup p {
+  color: #ccc;
+  margin: 0.3rem 0;
+}
+
+.deal-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 1rem;
+}
+
+.reserve-btn {
+  margin-top: 1.2rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #00ff88;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.reserve-btn:hover {
+  background-color: #00cc66;
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}

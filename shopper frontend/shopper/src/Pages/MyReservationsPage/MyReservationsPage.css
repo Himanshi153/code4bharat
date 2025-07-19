@@ -1,0 +1,41 @@
+.my-reservations-container {
+  padding: 2rem;
+  color: white;
+  background-color: black;
+  min-height: 100vh;
+}
+
+.my-reservations-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #00ff88;
+  text-align: center;
+}
+
+.reservations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.reservation-card {
+  border: 1px solid #00ff88;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: #111;
+}
+
+.show-qr-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #00ff88;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.show-qr-button:hover {
+  background-color: #00cc6f;
+}

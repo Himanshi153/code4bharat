@@ -1,0 +1,21 @@
+.deal-card {
+  border: 2px solid green;
+  padding: 1rem;
+  width: 220px;
+  border-radius: 10px;
+  background-color: #111;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.deal-card:hover {
+  transform: scale(1.05);
+}
+
+.deal-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.deal-card p {
+  margin: 4px 0;
+}

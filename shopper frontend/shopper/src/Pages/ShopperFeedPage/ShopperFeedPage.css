@@ -1,0 +1,87 @@
+.shopper-feed {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shopper-feed h1 {
+  color: #00ff88;
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  border-bottom: 2px solid #00ff88;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  max-width: 800px;
+}
+
+.deal-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.deal-card {
+  background-color: #111111;
+  border: 1px solid #00ff88;
+  border-radius: 20px;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 0 14px rgba(0, 255, 136, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.deal-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.4);
+}
+
+.deal-card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 1.2rem;
+}
+
+.deal-card h2 {
+  font-size: 1.4rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.deal-card p {
+  font-size: 0.95rem;
+  color: #bbbbbb;
+  margin: 0.25rem 0;
+  text-align: center;
+}
+
+.view-btn {
+  margin-top: 1.2rem;
+  padding: 0.6rem 1.4rem;
+  background-color: #00ff88;
+  color: #000000;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.view-btn:hover {
+  background-color: #00cc66;
+  transform: scale(1.06);
+  color: #000;
+}

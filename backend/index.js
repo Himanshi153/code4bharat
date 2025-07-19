@@ -1,4 +1,7 @@
 // index.js
+
+
+
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
@@ -8,6 +11,7 @@ dotenv.config();
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
 
 const authRoutes = require('./routes/auth');
 app.use('/api/auth', authRoutes);
